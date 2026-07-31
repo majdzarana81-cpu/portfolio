@@ -274,6 +274,7 @@ nav{
 
 #Projects{
     background-color: #1e293b;
+    overflow-x: hidden;
 }
 
 .pro-cont{
