@@ -8,21 +8,21 @@ document.addEventListener("scroll",(event)=>{
     }
 
 
-    if(scrollY >= 1000){
+    if(scrollY >= 1200){
         document.getElementById("pro-one-img").style.right = "0px";
         document.getElementById("pro-one-img").style.opacity = 1;
         document.getElementById("pro-one-titel").style.left = "0px";
         document.getElementById("pro-one-titel").style.opacity = 1;
     }
 
-    if(scrollY >= 1600){
+    if(scrollY >= 1700){
         document.getElementById("pro-tow-img").style.left = "0px";
         document.getElementById("pro-tow-img").style.opacity = 1;
         document.getElementById("pro-tow-titel").style.right = "0px";
         document.getElementById("pro-tow-titel").style.opacity = 1;
     }
 
-    if(scrollY >= 2100){
+    if(scrollY >= 2200){
         document.getElementById("pro-three-img").style.right = "0px";
         document.getElementById("pro-three-img").style.opacity = 1;
         document.getElementById("pro-three-titel").style.left = "0px";
