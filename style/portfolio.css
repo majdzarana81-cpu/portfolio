@@ -75,6 +75,7 @@ nav{
 
 
 #hero{
+    background: linear-gradient(#1f3a66,#0f172a);
     background-color: #0f172a;
     height: 100vh;
     display: flex;
@@ -193,6 +194,7 @@ nav{
 
 #about{
     height: 600px;
+    background: linear-gradient(#0f172a,#1f3a66);
     background-color: #0f172a;
     padding: 100px 0;
     display: flex;
@@ -273,6 +275,7 @@ nav{
 }
 
 #Projects{
+    background: linear-gradient(#1f3a66,#0f172a);
     background-color: #1e293b;
     overflow-x: hidden;
 }
@@ -385,6 +388,7 @@ nav{
     }
 
 #Experience{
+    background: linear-gradient(#0f172a,#1f3a66);
     background-color: #0f172a;
 }
 
@@ -476,6 +480,7 @@ nav{
 }
 
 #Contact{
+    background: linear-gradient(#1f3a66,#0f172a);
     background-color: #1e293b;
     min-height: 600px;
     display: flex;
