@@ -1,0 +1,23 @@
+.pro-one-img,
+    .pro-tow-img,
+    .pro-three-img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .pro-tow-img{
+        margin-left: 100px;
+    }
+
+    .pro-page img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .edu-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-d{
+    width: 90%;
+}
