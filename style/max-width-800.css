@@ -49,3 +49,7 @@
     .edu-grid{
         grid-template-columns: 1fr;
     }
+
+    .contact-link{
+        width: 80%;
+    }
