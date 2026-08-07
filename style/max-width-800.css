@@ -5,6 +5,10 @@
     .liner-img{
         text-align: center;
     }
+    .liner-img img{
+        width: 35%;
+        height: 35%;
+    }
     #about-img{
         display: none;
     }
@@ -22,7 +26,7 @@
     .project-three{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 50px;
+        /* margin: 50px; */
     }
     .pro-one-titel,
     .pro-tow-titel,
@@ -30,8 +34,8 @@
         margin-top: 30px;
     }  
     .pro-page img{
-        width: 350px;
-        height: 200px;
+        width: 90%;
+        height: 50%;
     }
 
     .pro-tow-img{

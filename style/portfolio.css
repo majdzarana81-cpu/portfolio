@@ -6,6 +6,7 @@
 body{
     font-family: "Inter", sans-serif;
     overflow-x: hidden;
+    perspective: 1000px;
 }
 
 html{
@@ -103,6 +104,11 @@ nav{
     animation-duration: 0.5s;
     animation-delay: 0.3s;
     animation-fill-mode: forwards;
+}
+
+.liner-img img{
+    width: 200px;
+    height: 200px;
 }
 
 .liner .liner-img{
@@ -317,6 +323,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 100px 0;
+    min-height: 400px;
     overflow-x: hidden;
     align-items: center;
 }
@@ -346,6 +353,14 @@ nav{
 .pro-one-img,
 .pro-three-img{
     text-align: center;
+    transform-style: preserve-3d;
+    transition: 0.5s ease;
+}
+
+.pro-tow-img:hover,
+.pro-one-img:hover,
+.pro-three-img:hover{
+    transform: scale(1.03);
 }
 
 .pro-page img{

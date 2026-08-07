@@ -1,12 +1,12 @@
 .pro-one-img,
     .pro-tow-img,
     .pro-three-img{
-        width: 350px;
-        height: 250px;
+        width: 90%;
+        height: 70%;
     }
 
     .pro-tow-img{
-        margin-left: 100px;
+        margin-left: 20px;
     }
 
     .pro-page img{
